@@ -1,13 +1,21 @@
-import "./App.css";
-import Book from "./Components/Book";
+
+import { useState } from "react";
+
+import MultipleInputs from "./components/MultipleInputs";
+
+
+
+
 
 function App() {
+  
+  
   return (
-    <div className="">
-      <Book />
-      
-    </div>
+    <>
+    <MultipleInputs />
+    </>
   );
 }
 
 export default App;
+
